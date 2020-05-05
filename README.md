@@ -6,7 +6,7 @@ This is an example of using events and queues on Redis
 ## Installation
 
 * Clone this repository
-* Run `docker-compose up --scale redis-consumer=3 --build` to install the dependencies
+* Run `docker-compose up --scale redis-consumer=3 --build` to startup 1 producer and 3 consumers/workers
 
 
 ## Methods
