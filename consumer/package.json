@@ -1,0 +1,20 @@
+{
+	"name": "redis-consumer",
+	"description": "Redis worker example",
+	"version": "1.0.0",
+	"author": "S Kruger",
+	"engines": {
+		"node": "> 0.10.20"
+	},
+	"dependencies": {
+		"express": "<4.0",
+		"redis": "^3.0.2",
+		"rsmq-worker": "^0.5.2"
+	},
+	"devDependencies": {
+		"underscore": "*",
+		"mocha": "*",
+		"should": "*",
+		"async": "*"
+	}
+}
